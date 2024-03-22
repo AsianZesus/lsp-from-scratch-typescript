@@ -1,0 +1,29 @@
+{
+  "name": "lsp-from-scractch-typescript",
+  "description": "lsp-from-scractch-typescript",
+  "author": "lsp-from-scractch-typescript",
+  "license": "MIT",
+  "version": "1.0.0",
+  "publisher": "lsp-from-scractch-typescript",
+  "categories": [],
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "activationEvents": [
+    "onLanguage"
+  ],
+  "main": "./client/out/extension",
+  "contributes": {
+    "configuration": {}
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -b",
+    "watch": "tsc -b -w",
+    "postinstall": "cd client && npm install && cd ../server && npm install && cd .."
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "lsp-from-scratch-typescript",
+  "description": "lsp-from-scratch-typescript",
+  "version": "1.0.0",
+  "author": "lsp-from-scratch-typescript",
+  "license": "MIT",
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "lsp-from-scratch-typescript"
+  },
+  "dependencies": {}
+}
